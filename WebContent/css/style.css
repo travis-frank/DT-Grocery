@@ -1,0 +1,89 @@
+.showcart {
+    font-family: Arial, sans-serif;
+    background-color: white !important;
+    background-image: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.index-background {
+    background-image: url('../img/grocery.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #45a049;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.title {
+    color: orange;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: orange;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+
