@@ -11,8 +11,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <%@ include file="header.jsp" %>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <%@ include file="header.jsp" %>
     <title>DT Grocery Order Processing</title>
     <style>
 
