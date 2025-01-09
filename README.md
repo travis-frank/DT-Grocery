@@ -96,5 +96,5 @@ DT-Grocery is a web-based e-commerce system designed to support interactions bet
      ```
      
 ## Video Walkthroughs
-[DT- Grocery Walkthough](https://youtu.be/EI9uJSDQM7E)
+[DT- Grocery Walkthough](https://youtu.be/EI9uJSDQM7E)\
 [Add/Delete/Update](https://youtu.be/UZ8ipyqt31M) 
