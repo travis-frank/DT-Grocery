@@ -33,6 +33,13 @@
         .empty-cart a:hover {
             text-decoration: underline;
         }
+
+        .action-buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -112,8 +119,10 @@
                 + "<td align=\"right\">" + currFormat.format(total) + "</td><td></td></tr>");
         out.println("</table>");
 
-        out.println("<h2><a href=\"checkout.jsp\">Check Out</a></h2>");
-        out.println("<h2><a href=\"listprod.jsp.jsp\">Continue Shopping</a></h2>");
+        out.println("<div class=\"action-buttons\">"
+                + "<a href=\"checkout.jsp\" class=\"btn btn-primary\">Check Out</a>"
+                + "<a href=\"listprod.jsp\" class=\"btn btn-secondary\">Continue Shopping</a>"
+                + "</div>");
     }
 %>
 </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Customer Info</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
     <%@ include file="header.jsp" %>
 <style>
